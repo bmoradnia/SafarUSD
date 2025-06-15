@@ -1,0 +1,16 @@
+[
+  {
+    "id": "openai-default",
+    "provider": "openai",
+    "apiKey": "OPENAI_API_KEY",
+    "dailyTokenLimit": 100000,
+    "fallbackConfigId": "gemini-default"
+  },
+  {
+    "id": "gemini-default",
+    "provider": "gemini",
+    "apiKey": "GEMINI_API_KEY",
+    "dailyTokenLimit": 100000,
+    "fallbackConfigId": null
+  }
+]

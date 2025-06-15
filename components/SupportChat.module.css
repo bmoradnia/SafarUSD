@@ -1,0 +1,4 @@
+.chatBox { border: 1px solid #ccc; padding: 8px; width: 250px; }
+.messages { max-height: 200px; overflow-y: auto; }
+.user { text-align: right; margin:4px; }
+.bot { text-align: left; margin:4px; }

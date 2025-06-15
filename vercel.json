@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {"source": "/support(.*)", "destination": "/"},
+    {"source": "/admin(.*)", "destination": "/admin$1"}
+  ],
+  "env": {
+    "OPENAI_API_KEY": "@openai-key",
+    "GEMINI_API_KEY": "@gemini-key",
+    "ADMIN_USER": "@admin-user",
+    "ADMIN_PASS": "@admin-pass"
+  }
+}
