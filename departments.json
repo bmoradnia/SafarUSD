@@ -1,0 +1,5 @@
+[
+  {"id":"general","title":"عمومی","fallbackDeptId":null},
+  {"id":"billing","title":"مالی","fallbackDeptId":"general"},
+  {"id":"tech","title":"فنی","fallbackDeptId":"general"}
+]
